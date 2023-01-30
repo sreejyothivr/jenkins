@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="CrossbrowserTesting2">
+	<test name="ChromeTest">
+		<parameter name="Browser" value="chrome"></parameter>
+
+		<classes>
+		<class name="Testcases.ManageOrderTestCases"></class>
+			<class name="Testcases.DashBoardTest"></class>
+			<class name="Testcases.ManageCodTest"></class>
+			<class name="Testcases.ManagedeliveryboyTest"></class>
+			<class name="Testcases.ManageExpenseTestcase"></class>
+			<class name="Testcases.ManageLocationTest"></class>
+			<class name="Testcases.ManageOfferCodeTestcase"></class>
+			<class name="Testcases.ManageOrderTestCases"></class>
+			<class name="Testcases.ManagePaymentTest"></class>
+			<class name="Testcases.ManageProducttest"></class>
+			<class name="Testcases.ManagesliderTestcase"></class>
+			<class name="Testcases.MobileSliderTestcase"></class>
+			<class name="Testcases.PushNotificationsTest"></class>
+		
+		</classes>
+	</test>
+
+</suite>

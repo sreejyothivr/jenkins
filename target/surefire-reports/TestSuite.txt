@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 5.646 s <<< FAILURE! - in TestSuite
+beforemethod(Testcases.ManageLocationTest)  Time elapsed: 5.549 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 107
+Current browser version is 109.0.5414.120 with binary path C:\Users\sreejyothy\AppData\Local\Google\Chrome\Application\chrome.exe
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'QB-TP3-2221', ip: '192.168.1.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+
+aftermethod(Testcases.ManageLocationTest)  Time elapsed: 5.549 s  <<< FAILURE!
+java.lang.NullPointerException
+

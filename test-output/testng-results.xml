@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="4" total="5" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MyTestSuite" duration-ms="6785" started-at="2023-01-30T16:12:20 IST" finished-at="2023-01-30T16:12:27 IST">
+    <groups>
+      <group name="Showstopper">
+        <method signature="ManageProducttest.alertValidation()[pri:0, instance:Testcases.ManageProducttest@4a87761d]" name="alertValidation" class="Testcases.ManageProducttest"/>
+      </group> <!-- Showstopper -->
+    </groups>
+    <test name="Chrome Test" duration-ms="6785" started-at="2023-01-30T16:12:20 IST" finished-at="2023-01-30T16:12:27 IST">
+      <class name="Testcases.ManageProducttest">
+        <test-method status="PASS" signature="beforemethod(java.lang.String)[pri:0, instance:Testcases.ManageProducttest@4a87761d]" name="beforemethod" is-config="true" duration-ms="5053" started-at="2023-01-30T16:12:20 IST" finished-at="2023-01-30T16:12:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="FAIL" signature="alertValidation()[pri:0, instance:Testcases.ManageProducttest@4a87761d]" name="alertValidation" duration-ms="1638" started-at="2023-01-30T16:12:25 IST" finished-at="2023-01-30T16:12:27 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with locator By.linkText: Manage Product
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'QB-TP3-2221', ip: '192.168.1.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.linkText: Manage Product
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'QB-TP3-2221', ip: '192.168.1.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy15.click(Unknown Source)
+at Utilities.GeneralUtilities.clickElement(GeneralUtilities.java:39)
+at ElementRepository.ManageProductTab.clickManageproductTab(ManageProductTab.java:47)
+at Testcases.ManageProducttest.alertValidation(ManageProducttest.java:66)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertValidation -->
+        <test-method status="FAIL" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:Testcases.ManageProducttest@4a87761d]" name="aftermethod" is-config="true" duration-ms="43" started-at="2023-01-30T16:12:27 IST" finished-at="2023-01-30T16:12:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alertValidation status=FAILURE method=ManageProducttest.alertValidation()[pri:0, instance:Testcases.ManageProducttest@4a87761d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'QB-TP3-2221', ip: '192.168.1.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a8a019422055dea0064dcc8d7917442, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SREEJY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53490}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53490/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9a8a019422055dea0064dcc8d7917442]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'QB-TP3-2221', ip: '192.168.1.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a8a019422055dea0064dcc8d7917442, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SREEJY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53490}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53490/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9a8a019422055dea0064dcc8d7917442
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:331)
+at Utilities.Screenshotcapture.Screenshotcapturefunc(Screenshotcapture.java:16)
+at Testcases.BaseClass.aftermethod(BaseClass.java:81)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- Testcases.ManageProducttest -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- MyTestSuite -->
+</testng-results>

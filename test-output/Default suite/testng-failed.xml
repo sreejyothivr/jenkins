@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Testcases.ManageOrderTestCases">
+        <methods>
+          <include name="Manageorders_searchbtn_bg_clr_validation"/>
+          <include name="beforemethod"/>
+          <include name="Manageorders_reset_btn_size"/>
+          <include name="manageOredersSearchbyBank"/>
+          <include name="aftermethod"/>
+          <include name="statusvalidation"/>
+          <include name="Manageorders_search_btn_size"/>
+        </methods>
+      </class> <!-- Testcases.ManageOrderTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

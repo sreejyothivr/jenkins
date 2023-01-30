@@ -1,0 +1,14 @@
+<suite name="MyTestSuite">
+	<test name="Chrome Test">
+		<parameter name="Browser" value="chrome"></parameter>
+		<groups>
+			<run>
+				<include name="Showstopper" />
+			</run>
+		</groups>
+		<classes>
+			<class name="Testcases.ManageProducttest"></class>
+			<class name="Testcases.PushNotificationsTest"></class>
+		</classes>
+	</test>
+</suite>
